@@ -5,15 +5,10 @@ export default function Contact() {
     <section id="contact">
       <div className="container px-5 py-10 mx-auto">
         <div id="contactHeader" className="text-center">
-          {/* hub svg icon for the section */}
-          {/* <div className="flex justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" className="transition-transform transform hover:scale-105" style={{ opacity: 1, transform: "translate(0%, 0px)" }}>
-              <path fill="#808080" d="M234-40q-47.5 0-80.75-33.25T120-154q0-47.5 33.25-80.75T234-268q14 0 24.5 2.5T280-258l85-106q-19-23-29-52.5t-5-61.5l-..." />
-            </svg>
-          </div> */}
+          {/* To-do: add svg icon for the section */}
           {/* contact section heading */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Let's Connect 🤝
+            Let's Connect <span role="img" aria-label="handshake">🤝</span>
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">You can find my socials below. Drop a Hi, and we can get started from there.</p>
         </div>
@@ -37,5 +32,3 @@ export default function Contact() {
     </section >
   );
 }
-
-// // TODO: Add socials (github, linkedin, leetcode, etc)
