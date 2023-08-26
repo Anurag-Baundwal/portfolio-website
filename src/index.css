@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#contactHeader {
+    transform: translate(0%, 0px);
+    opacity: 1;
+    margin-bottom: 2rem;
+    /* 3 rem = mb-16 in tailwind terms */
+}
+
+.contactLinks a {
+    transform: translate(0%, 0px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+.contactLinks a:hover {
+    opacity: 0.7;
+}
