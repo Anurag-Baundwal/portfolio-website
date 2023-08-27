@@ -17,11 +17,11 @@ export const projects = [
   },
   {
     title: "Weather App",
-    subtitle: "A React App",
+    subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    image: "./weather-app.png",
+    link: "https://weather-app-byanurag.netlify.app/",
   },
   {
     title: "Github Profile",
@@ -51,10 +51,13 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "HTML",
+  "CSS",
+  "Javascript",
   "React",
-  "Next.js",
+  "Bootstrap",
+  "Tailwind",
   "Node",
-  "GraphQL",
-  "Material UI",
+  "Express",
+  "MongoDB"
 ];
